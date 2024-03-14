@@ -1,0 +1,103 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "postbuild": {
+      "name": "postbuild",
+      "command": "npm run postbuild",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "watch": {
+      "name": "watch",
+      "command": "npm run watch",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "npm run lint:fix",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "npm run test:watch",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "npm run test:coverage",
+      "runAtStart": false
+    },
+    "test:jsunit": {
+      "name": "test:jsunit",
+      "command": "npm run test:jsunit",
+      "runAtStart": false
+    },
+    "sass": {
+      "name": "sass",
+      "command": "npm run sass",
+      "runAtStart": false
+    },
+    "sass:watch": {
+      "name": "sass:watch",
+      "command": "npm run sass:watch",
+      "runAtStart": false
+    },
+    "sass:icons": {
+      "name": "sass:icons",
+      "command": "npm run sass:icons",
+      "runAtStart": false
+    },
+    "cypress": {
+      "name": "cypress",
+      "command": "npm run cypress",
+      "runAtStart": false
+    },
+    "cypress:component": {
+      "name": "cypress:component",
+      "command": "npm run cypress:component",
+      "runAtStart": false
+    },
+    "cypress:e2e": {
+      "name": "cypress:e2e",
+      "command": "npm run cypress:e2e",
+      "runAtStart": false
+    },
+    "cypress:gui": {
+      "name": "cypress:gui",
+      "command": "npm run cypress:gui",
+      "runAtStart": false
+    },
+    "cypress:version": {
+      "name": "cypress:version",
+      "command": "npm run cypress:version",
+      "runAtStart": false
+    }
+  }
+}
